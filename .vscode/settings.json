@@ -1,0 +1,14 @@
+{
+    "files.associations": {
+        "functions.C": "cpp",
+        "omega_t_ec.C": "cpp",
+        "E_t_ec.C": "cpp",
+        "E_t_RK.C": "cpp",
+        "calc_pvalues.C": "cpp",
+        "potental.C": "cpp",
+        "potential.C": "cpp",
+        "potential copy.C": "cpp",
+        "q2_potential.C": "cpp",
+        "poincare_ec.C": "cpp"
+    }
+}
