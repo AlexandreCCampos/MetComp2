@@ -1,0 +1,85 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{cases}
+\usepackage[portuguese]{babel}%traduzir as coisa do latex p portugues
+\usepackage{exsheets}
+\usepackage{paralist}
+\usepackage{tikz}
+\usetikzlibrary{decorations.pathmorphing}
+\usepackage{graphicx}
+\usepackage{bm}
+\usepackage{capt-of}
+\usepackage{enumitem} %mudar o formato da lista pra letras a), b), c)...
+\usepackage{geometry} 
+\usepackage{cancel}
+\usepackage{physics}
+\usepackage{microtype}
+%\usepackage{siunitx}
+\usepackage{mathtools}
+\usepackage{comment}
+\usepackage{pgfplots}
+\pgfplotsset{width=10cm,compat=1.9}
+\usetikzlibrary{angles, quotes}
+\geometry{margin=0.75in}
+%------pacotes_lista_original-----------------
+\usepackage[utf8]{inputenc}
+\usepackage{color,epsfig,rotating}
+\usepackage{amscd}
+%------------------------------------
+\SetupExSheets{solution/print=true}
+\SetupExSheets{question/type=exam}
+\SetupExSheets[points]{name=point,name-plural=points}
+
+
+\def\$r_C$u$r_S${{\mbox{$\resizebox{.16in}{.08in}{\includegraphics{ScriptR}}$}}}
+\def\b$r_C$u$r_S${{\mbox{$\resizebox{.16in}{.08in}{\includegraphics{BoldR}}$}}}
+\def\h$r_C$u$r_S${{\mbox{$\hat \b$r_C$u$r_S$$}}}
+
+\newcommand{\urt}[2]{u(#1,\theta, \phi, #2)}
+\newcommand{\so}{\quad\Rightarrow\quad}
+\usepackage{subfiles} % Best loaded last in the preamble
+
+\renewcommand{\v}{\text{v}}
+\renewcommand{\a}[1]{\vec{a_{#1}}}
+\renewcommand{\b}[1]{\vec{b_{#1}}}
+\newcommand{\G}{\vec{G}}
+\renewcommand{\r}{\vec{r}}
+
+\renewcommand{\vec}[1]{\mathbf{#1}}%configurando o \vec para exibir os vetores em negrito em vez da seta
+\let\oldhat\hat
+\renewcommand{\hat}[1]{\oldhat{\mathbf{#1}}}%configurando o \vec para exibir os vetores em negrito em vez do chapéu
+
+\newcommand*\Bell{\ensuremath{\boldsymbol\ell}}
+\newcommand*\Btheta{\ensuremath{\boldsymbol\theta}}
+\newcommand*\Bphi{\ensuremath{\boldsymbol\phi}}
+\newcommand*\Bvarphi{\ensuremath{\boldsymbol\varphi}}
+\newcommand*\Bomega{\ensuremath{\boldsymbol\omega}}
+
+\begin{document}
+\begin{center}
+\fbox{\fbox{\parbox{5.5in}{\centering
+Métodos Computacionais 2 \\ Lista 1 \\ Alexandre Campos  DRE: 115152457 }}}
+\end{center}
+%1-------------------------------
+    \begin{question}%1
+    \end{question}
+
+\begin{solution}
+    \subfile{Q1.tex}
+\end{solution}
+
+    \begin{question}%2
+    \end{question}
+
+    \begin{solution}    
+    		\subfile{Q2.tex}
+    \end{solution}
+    
+        \begin{question}%3
+    \end{question}
+
+    \begin{solution}    
+    		\subfile{Q3.tex}
+    \end{solution}
+\end{document}
